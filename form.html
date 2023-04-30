@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <body>
+        <form method="post" action="<?php echo $_SERVER['PHP_SELF'];?>">
+           
+            NAME:<input type="text" name="name" value="<?= " $name" ?>"><br>
+            EMAIL:<input type="email" name="email" value="<?= " $mail" ?>"><br>
+            POSITION:<input type="text" name="pos" value="<?= " $pos" ?>"><br>
+            <button type="submit" name="add">ADD</button>
+            <button type="submit" name="edit">EDIT</button>
+        </form>
+
+    </body>
+
+</html>
