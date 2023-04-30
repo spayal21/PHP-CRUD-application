@@ -1,11 +1,22 @@
 # PHP-CRUD-application
-CRUD (Create, Read, Update, and Delete) operations are fundamental to any web application -
-### In PHP, CRUD operations can be performed using the following steps:
+#### Here is a very basic appliaction thats allows user to create, read, update, and delete data, as well as perform a search
 
-1. Connect to the database: To perform CRUD operations, you need to establish a connection to your database. You can do this using the mysqli_connect() function or the PDO object. Here I have prefered PDO .
-2. Create data (insert): To add new data to your database, you can use the mysqli_query() function or the PDO object to execute an SQL INSERT statement.
-3. Read data (select): To retrieve data from your database, you can use SQL SELECT statement.
-4. Update data: To update existing data in your database, you can use SQL UPDATE statement.
-5. Delete data: To delete data from your database, you can use SQL DELETE statement.
+1. Configure the database:
+Create a database and update the database credentials in the "config.php" file to match your database settings.
+2. Usage:
+The application allows users to perform the following CRUD operations:
 
+* Create a new record
+* Read an existing record
+* Update an existing record
+* Delete an existing record
+* The application also allows users to perform a search by entering keywords in the search bar.
+3. File Structure :
+* form.html & style.css:a basic input form for user 
+* config.php: Contains the database credentials and settings
+* conn.php: To establish a connection with the database and Create records
+* edit.php & Update.php: collaborately used to handle the update operation 
+* delete.php:The file that handles the delete operation
+* search.php: to handle search operation 
 
+ 
